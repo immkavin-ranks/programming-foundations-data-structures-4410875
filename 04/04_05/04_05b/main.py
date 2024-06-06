@@ -1,5 +1,6 @@
 def has_unique_characters(data):
-    return False
+    string_set = set(data) # O(n) linear
+    return len(data) == len(string_set)
 
 print(has_unique_characters('sample'))
 print(has_unique_characters('hello world'))

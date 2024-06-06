@@ -10,3 +10,4 @@ else:
 letters = set(['a', 'b'])
 letters.add('c')
 print(letters)
+# does not contain duplicates
