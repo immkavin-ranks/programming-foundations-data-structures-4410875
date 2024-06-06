@@ -6,9 +6,9 @@ user_preferences = {
     "theme": None
 }
 
-
+# improved version of 03_04b/main.py
 def update_preferences(user_pref):
-    return {}
+    return {key: value for key, value in user_pref.items() if value is not None}
 
 
 print(update_preferences(user_preferences))
