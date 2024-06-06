@@ -1,5 +1,6 @@
 from collections import deque
 
+# O(n)
 def print_binary_numbers(n):
     if n <= 0:
         return None
